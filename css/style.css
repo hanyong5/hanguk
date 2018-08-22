@@ -1,0 +1,55 @@
+@charset 'utf-8';
+*{box-sizing:border-box;font-family:"NanumGothic",나눔고딕,serif;}
+.clearfix:after{display:block;content:"";clear:both;}
+#main{width:100%;margin:0 auto;height:160px;}
+#main_header{width:100%;height:40px;background:#0044af;}
+#main_gnb_wrap{width:1200px;margin:0 auto;}
+#gnb{float:left}
+#gnb li{float:left;width:130px;background:#00163b;margin-right:1px;text-align:center;}
+#gnb li>a{line-height:40px;color:#fff;font-weight:bold;display:block;}
+#gnb li:nth-child(1)>a{background:#fff;color:black;font-weight:bold;}
+#gnb2{float:right;}
+#gnb2 li{float:left;margin-left:15px;}
+#gnb2 li>a{color:#fff;line-height:40px;font-size:13px;}
+#gnb2 li>a:hover{font-weight:bold;}
+
+#logo_wrap{width:1200px;height:120px;background:#fff;margin:0 auto;}
+#logo_wrap>img{padding-top:25px;width:200px;}
+#main_lnb_wrap{float:right;}
+#lnb_wrap>ul{float:left;}
+#lnb li{float:left;margin-right:30px;font-size:20px;}
+#lnb li>a{line-height:120px;display:block;}
+#lnb2 li{float:left;margin-top:40px;}
+#lnb2 li>a{display:block;width:40px;height:40px;}
+#lnb2 li:first-child{background:url(../images/button.jpg) no-repeat center;}
+#lnb2 li:last-child{background:url(../images/button1.jpg) no-repeat center;}
+
+#visual_wrap{width:100%;height:1300px;background:url(../images/bg_02.png),url(../images/배경01.jpg) no-repeat center;margin:0 auto;}
+div.title_wrap{width:1200px;margin:0 auto;padding:79px 0 60px 0;}
+.title_wrap p{font-size:47px;color:white;}
+.title_wrap h1{font-size:64px;color:white;}
+div.title{float:left;}
+div.icon_wrap{float:right;}
+.icon_wrap img{padding:0 10px 5px 0;}
+.icon_wrap .icon{float:left;color:#fff;text-align:center;}
+
+#main_footer{width:100%;height:170px;background:#fff;padding-top:30px;}
+#footer{width:1200px;margin:0 auto;}
+#footer img{width:200px;}
+div#footer .name{float:left;}
+div.group{padding-left:50px;}
+div.group ul{padding-bottom :15px;}
+#footer img{padding-top:10px;}
+div.group li{float:left;padding:0 20px;border-right:1px solid #000;}
+div.group li:first-child{padding:0 10px 0;}
+div.group li:last-child{border-right:none;}
+div.group li>a{display:block;}
+#footer p{display:block;font-size:12px;}
+
+.bx-wrapper{border:none;box-shadow:none;}
+.content_wrap{width:1200px;margin:0 auto;}
+.span9{width:900px;height:440px;}
+
+.span9 li{position:relative;}
+.span9 p{position:absolute;top:100px;left:70px;font-size:60px;line-height:70px;}
+
